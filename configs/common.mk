@@ -42,12 +42,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/wave/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
-# Build some apps
-PRODUCT_PACKAGES += \
-    ViaBrowser \
-    ExactCalculator \
-    SimpleGallery
-
 # Include support for additional filesystems
 PRODUCT_PACKAGES += \
     e2fsck \
